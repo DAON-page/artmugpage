@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -16,23 +16,14 @@
         --text: #4A6B53;        /* 가독성을 갖춘 진한 그린 텍스트 */
     }
 
-    .daon-root * { box-sizing: border-box; margin: 0; padding: 0; }
+.daon-root * { box-sizing: border-box; margin: 0; padding: 0; }
     .daon-root {
-        /* 기본 폰트는 Dongle로 설정 */
         font-family: 'Dongle', sans-serif;
         background-color: var(--bg);
-        
-        /* 💡 4번 디자인: 격자선을 지우고, 오리지널 연두색이 부드럽게 감도는 오로라 그라데이션 적용 */
-        background-image: 
-            radial-gradient(circle at 10% 15%, rgba(133, 204, 161, 0.15) 0%, transparent 40%),
-            radial-gradient(circle at 90% 85%, rgba(133, 204, 161, 0.12) 0%, transparent 45%);
-        background-attachment: fixed; /* 스크롤 시에도 배경 빛이 은은하게 고정되도록 설정 */
-        
         color: var(--text);
         max-width: 1200px;
         margin: 0 auto;
         padding: 60px 0;
-        
         font-size: 24px; 
         line-height: 1.2;
     }
